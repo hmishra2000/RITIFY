@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body {
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    position:sticky;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    color:white;
+    list-style-type: none;
+    height: 55px;
+    /* background-color: #1e0e02e0; */
+    background-color: #090502e0;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    height : 44px;
+    padding: 0 8px;
+}
+
+.brand{
+   display: flex;
+   align-items: center;
+   font-weight: bolder;
+   font-size: 1.5rem;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: #090502e0  ;
+    color: wheat;
+    font-family: 'Varela Round', sans-serif; 
+    display: flex;
+    margin: 23px auto;
+    width: 90%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bg.jpeg);
+
+}
+
+.bottom{
+
+    position:sticky;
+    height : 130px;
+    background-color : #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    flex-direction: column;
+    bottom: 0;
+    
+}
+
+.songItemContainer{
+    margin: 74px 0;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.icons i{
+    cursor: pointer;
+
+}
+
+
+
+#progressBar{
+    min-width: 80vw;
+    text-align: center;
+    cursor: pointer;
+
+    
+}
+
+.timeStamp{
+    margin: 0 8px;
+
+}
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songItem img{
+   height: 43px;
+   margin: 0 12px;
+   border-radius: 34px;
+
+
+
+}
+.songEqualizer{
+    position: absolute;
+    left: 10vw;
+}
+.songEqualizer img{
+    width: 100px;
+    opacity: 0;
+    transition : opacity 1.3s ease-in;                        
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    margin: 12px 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    background-color: #60554de0  ;
+    color: wheat;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
